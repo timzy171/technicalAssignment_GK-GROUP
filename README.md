@@ -25,6 +25,7 @@
 ![image](https://github.com/timzy171/technicalAssignment_GK-GROUP/assets/115809444/160d625a-8f95-4f79-bfa2-3e7bd80049ff)
 ![image](https://github.com/timzy171/technicalAssignment_GK-GROUP/assets/115809444/a1ecc17b-c62d-4ad7-a952-5cf4f044095d)
 
-
+Также предусмотрена проверка на некорректный ввод:
+![image](https://github.com/timzy171/technicalAssignment_GK-GROUP/assets/115809444/70511867-2bbb-472a-a278-c82fb01434f0)
 
 

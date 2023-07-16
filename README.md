@@ -12,7 +12,7 @@
 Для авторизации вводим `login: sa` и `password: sa`
 ![image](https://github.com/timzy171/technicalAssignment_GK-GROUP/assets/115809444/6ea69dac-5f71-49b7-a6c0-9cbb28c2b6dd)
 
-Находим нужную нам тамблицу и выполняем SQL SELECT запрос:
+Находим нужную нам таблицу и выполняем SQL SELECT запрос:
 ![image](https://github.com/timzy171/technicalAssignment_GK-GROUP/assets/115809444/3289ab36-0ac0-4c0b-a3fc-2829b9cdd1d1)
 
 Также, в приложении предусмотрено ручное изменение значения, просто вводим его в `TEXTFIELD`, после чего нажимаем на `PLUS ONE`:

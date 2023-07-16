@@ -3,6 +3,7 @@ package com.example.test;
 import com.example.test.entity.Value;
 import com.example.test.repo.ValueRepo;
 import com.vaadin.flow.component.button.Button;
+import com.vaadin.flow.component.dependency.StyleSheet;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.router.Route;
@@ -30,6 +31,7 @@ public class MainView extends VerticalLayout {
         }
         valueRepo.save(value);
         TextField textField = new TextField();
+        textField.setRequired(true);
         Button button = new Button("PLUS ONE");
         add(button);
         add(textField);
@@ -50,7 +52,8 @@ public class MainView extends VerticalLayout {
             }
             catch (Exception e){
                 textField.setValue("");
-                textField.setPlaceholder("Error");
+                textField.setPlaceholder("Error!");
+                textField.setErrorMessage("You need to write digits only");
             }
         });
     }
